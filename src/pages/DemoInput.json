@@ -1,0 +1,114 @@
+{
+    "parent": "{project_id}",
+    "model": {
+        "shipments": [
+            {
+                "pickups": [
+                    {
+                        "arrivalLocation": {
+                            "latitude": 49.2474624,
+                            "longitude": -123.1532338
+                        },
+                        "duration": "600s",
+                        "timeWindows": [
+                            {
+                                "startTime": "1970-01-01T09:00:00Z",
+                                "endTime": "1970-01-01T09:30:00Z"
+                            }
+                        ]
+                    }
+                ],
+                "loadDemands": {
+                    "weight": {
+                        "amount": 10
+                    }
+                },
+                "deliveries": [
+                    {
+                        "arrivalLocation": {
+                            "latitude": 49.227107,
+                            "longitude": -123.1163085
+                        },
+                        "duration": "600s",
+                        "timeWindows": [
+                            {
+                                "startTime": "1970-01-01T09:00:00Z",
+                                "endTime": "1970-01-01T09:30:00Z"
+                            }
+                        ]
+                    }
+                ]
+                
+            },
+            {
+                "pickups": [
+                    {
+                        "arrivalLocation": {
+                            "latitude": 49.2395167,
+                            "longitude": -123.1309948
+                        },
+                        "duration": "600s",
+                        "timeWindows": [
+                            {
+                                "startTime": "1970-01-01T09:00:00Z",
+                                "endTime": "1970-01-01T09:30:00Z"
+                            }
+                        ]
+                    }
+                ],
+                "loadDemands": {
+                    "weight": {
+                        "amount": 20
+                    }
+                },
+                "deliveries": [
+                    {
+                        "arrivalLocation": {
+                            "latitude": 49.2593508,
+                            "longitude": -123.13265
+                        },
+                        "duration": "600s",
+                        "timeWindows": [
+                            {
+                                "startTime": "1970-01-01T09:00:00Z",
+                                "endTime": "1970-01-01T09:30:00Z"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "vehicles": [
+            {
+                "loadLimits": {
+                    "weight": {
+                        "maxLoad": 50
+                    }
+                },
+                "startLocation": {
+                    "latitude": 49.2553636,
+                    "longitude": -123.0873365
+                },
+                "endLocation": {
+                    "latitude": 49.2201308,
+                    "longitude": -123.1085687
+                }
+            },
+            {
+                "loadLimits": {
+                    "weight": {
+                        "maxLoad": 60
+                    }
+                },
+                "startLocation": {
+                    "latitude": 49.2253335,
+                    "longitude": -123.1653907
+                },
+                "endLocation": {
+                    "latitude": 49.261436,
+                    "longitude": -123.1190245
+                }
+            }
+        ]
+    }
+}

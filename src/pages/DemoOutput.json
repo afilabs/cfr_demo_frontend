@@ -1,0 +1,261 @@
+{
+    "routes": [
+        {
+            "vehicleStartTime": "1970-01-01T08:48:05Z",
+            "vehicleEndTime": "1970-01-01T09:34:09Z",
+            "visits": [
+                {
+                    "isPickup": true,
+                    "startTime": "1970-01-01T09:00:00Z",
+                    "demands": [
+                        {
+                            "type": "weight",
+                            "value": "10"
+                        }
+                    ],
+                    "detour": "0s",
+                    "arrivalLoads": [
+                        {
+                            "type": "weight"
+                        }
+                    ],
+                    "loadDemands": {
+                        "weight": {
+                            "amount": "10"
+                        }
+                    }
+                },
+                {
+                    "startTime": "1970-01-01T09:19:24Z",
+                    "demands": [
+                        {
+                            "type": "weight",
+                            "value": "-10"
+                        }
+                    ],
+                    "detour": "0s",
+                    "arrivalLoads": [
+                        {
+                            "type": "weight",
+                            "value": "10"
+                        }
+                    ],
+                    "loadDemands": {
+                        "weight": {
+                            "amount": "-10"
+                        }
+                    }
+                }
+            ],
+            "transitions": [
+                {
+                    "travelDuration": "715s",
+                    "travelDistanceMeters": 6062,
+                    "waitDuration": "0s",
+                    "totalDuration": "715s",
+                    "startTime": "1970-01-01T08:48:05Z",
+                    "vehicleLoads": {
+                        "weight": {}
+                    }
+                },
+                {
+                    "travelDuration": "564s",
+                    "travelDistanceMeters": 5105,
+                    "waitDuration": "0s",
+                    "totalDuration": "564s",
+                    "startTime": "1970-01-01T09:10:00Z",
+                    "vehicleLoads": {
+                        "weight": {
+                            "amount": "10"
+                        }
+                    }
+                },
+                {
+                    "travelDuration": "285s",
+                    "travelDistanceMeters": 1851,
+                    "waitDuration": "0s",
+                    "totalDuration": "285s",
+                    "startTime": "1970-01-01T09:29:24Z",
+                    "vehicleLoads": {
+                        "weight": {}
+                    }
+                }
+            ],
+            "metrics": {
+                "performedShipmentCount": 1,
+                "travelDuration": "1564s",
+                "waitDuration": "0s",
+                "delayDuration": "0s",
+                "breakDuration": "0s",
+                "visitDuration": "1200s",
+                "totalDuration": "2764s",
+                "travelDistanceMeters": 13018,
+                "maxLoads": {
+                    "weight": {
+                        "amount": "10"
+                    }
+                }
+            },
+            "endLoads": [
+                {
+                    "type": "weight"
+                }
+            ],
+            "travelSteps": [
+                {
+                    "duration": "713s",
+                    "distanceMeters": 6062
+                },
+                {
+                    "duration": "566s",
+                    "distanceMeters": 5105
+                },
+                {
+                    "duration": "286s",
+                    "distanceMeters": 1851
+                }
+            ],
+            "vehicleDetour": "2119s"
+        },
+        {
+            "vehicleIndex": 1,
+            "vehicleStartTime": "1970-01-01T08:49:45Z",
+            "vehicleEndTime": "1970-01-01T09:31:58Z",
+            "visits": [
+                {
+                    "shipmentIndex": 1,
+                    "isPickup": true,
+                    "startTime": "1970-01-01T09:00:00Z",
+                    "demands": [
+                        {
+                            "type": "weight",
+                            "value": "20"
+                        }
+                    ],
+                    "detour": "0s",
+                    "arrivalLoads": [
+                        {
+                            "type": "weight"
+                        }
+                    ],
+                    "loadDemands": {
+                        "weight": {
+                            "amount": "20"
+                        }
+                    }
+                },
+                {
+                    "shipmentIndex": 1,
+                    "startTime": "1970-01-01T09:17:37Z",
+                    "demands": [
+                        {
+                            "type": "weight",
+                            "value": "-20"
+                        }
+                    ],
+                    "detour": "0s",
+                    "arrivalLoads": [
+                        {
+                            "type": "weight",
+                            "value": "20"
+                        }
+                    ],
+                    "loadDemands": {
+                        "weight": {
+                            "amount": "-20"
+                        }
+                    }
+                }
+            ],
+            "transitions": [
+                {
+                    "travelDuration": "615s",
+                    "travelDistanceMeters": 4408,
+                    "waitDuration": "0s",
+                    "totalDuration": "615s",
+                    "startTime": "1970-01-01T08:49:45Z",
+                    "vehicleLoads": {
+                        "weight": {}
+                    }
+                },
+                {
+                    "travelDuration": "457s",
+                    "travelDistanceMeters": 3454,
+                    "waitDuration": "0s",
+                    "totalDuration": "457s",
+                    "startTime": "1970-01-01T09:10:00Z",
+                    "vehicleLoads": {
+                        "weight": {
+                            "amount": "20"
+                        }
+                    }
+                },
+                {
+                    "travelDuration": "261s",
+                    "travelDistanceMeters": 1433,
+                    "waitDuration": "0s",
+                    "totalDuration": "261s",
+                    "startTime": "1970-01-01T09:27:37Z",
+                    "vehicleLoads": {
+                        "weight": {}
+                    }
+                }
+            ],
+            "metrics": {
+                "performedShipmentCount": 1,
+                "travelDuration": "1333s",
+                "waitDuration": "0s",
+                "delayDuration": "0s",
+                "breakDuration": "0s",
+                "visitDuration": "1200s",
+                "totalDuration": "2533s",
+                "travelDistanceMeters": 9295,
+                "maxLoads": {
+                    "weight": {
+                        "amount": "20"
+                    }
+                }
+            },
+            "endLoads": [
+                {
+                    "type": "weight"
+                }
+            ],
+            "travelSteps": [
+                {
+                    "duration": "584s",
+                    "distanceMeters": 4408
+                },
+                {
+                    "duration": "460s",
+                    "distanceMeters": 3454
+                },
+                {
+                    "duration": "259s",
+                    "distanceMeters": 1433
+                }
+            ],
+            "vehicleDetour": "1678s"
+        }
+    ],
+    "metrics": {
+        "aggregatedRouteMetrics": {
+            "performedShipmentCount": 2,
+            "travelDuration": "2897s",
+            "waitDuration": "0s",
+            "delayDuration": "0s",
+            "breakDuration": "0s",
+            "visitDuration": "2400s",
+            "totalDuration": "5297s",
+            "travelDistanceMeters": 22313,
+            "maxLoads": {
+                "weight": {
+                    "amount": "20"
+                }
+            }
+        },
+        "usedVehicleCount": 2,
+        "earliestVehicleStartTime": "1970-01-01T08:48:05Z",
+        "latestVehicleEndTime": "1970-01-01T09:34:09Z"
+    }
+}
